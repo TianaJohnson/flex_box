@@ -1,16 +1,25 @@
 /*  .container-1 is a div that holds all the others and so denotes flex */
-.container-1 {
-    display: flex;
-    /* align-items: flex-end; /* /* (aligns bottoms no matter size) */
-    /* align-items: flex-start; */ /* (aligns top no matter size) */
-    /* align-items: center;
-    /* align-items: stretch; - default */
-    /* flex-direction: column; */
-    
+@media(min-width: 768px){
+    .container-1 {
+        display: flex;
+        /* align-items: flex-end; /* /* (aligns bottoms no matter size) */
+        /* align-items: flex-start; */ /* (aligns top no matter size) */
+        /* align-items: center;
+        /* align-items: stretch; - default */
+        /* flex-direction: column; */
+        
+    }
+    .container-2 {
+        display: flex;
+        /* justify-content: flex-start; -default setting to justify content*/
+        /* justify-content: flex-end; -pushes it over */
+        /* justify-content: center; -obvious */
+        justify-content: space-between; 
+         /*   - only space between, not around */ 
+        /* justify-content: space-around; - add margins on the side as well as between. */
+    }
 }
-.container-2 {
-    display: flex;
-}
+
 
 .container-1 div, .container-2 div{
     border: 1px #ccc solid;
@@ -29,5 +38,7 @@
     order:3;
 }
 .container-2-box {
-    width: 30%;
+    /* width: 27%; */
+    /* rather than width, use flex-basis */
+    flex-basis: 27%;
 }
