@@ -3,9 +3,13 @@
     display: flex;
     /* align-items: flex-end; /* /* (aligns bottoms no matter size) */
     /* align-items: flex-start; */ /* (aligns top no matter size) */
+    /* align-items: center;
+    /* align-items: stretch; - default */
+    /* flex-direction: column; */
+    
 }
 
-.container-1 div{
+.container-1 div, .container-2 div{
     border: 1px #ccc solid;
     padding: 10px;
 }
