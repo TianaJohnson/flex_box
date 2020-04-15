@@ -1,4 +1,41 @@
-/*  .container-1 is a div that holds all the others and so denotes flex */
+
+/* Wes Bos tutorial */
+.boz {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    padding: 10px;
+}
+
+/* Colours for each box */
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+.box3 { background:#9b59b6;}
+.box3 { background:#34495e;}
+.box5 { background:#f1c40f;}
+.box6 { background:#e67e22;}
+.box7 { background:#e74c3c;}
+.box8 { background:#bdc3c7;}
+.box9 { background:#2ecc71;}
+.box10 { background:#16a085;}
+
+.container {
+    display: flex;
+    boarder: 10px solid;
+}
+
+
+
+
+
+
+
+
+
+
+/* traversy Tutorial */
+/* .container-1 is a div that holds all the others and so denotes flex
 @media(min-width: 768px){
     .container-1 {
         display: flex;
@@ -8,19 +45,19 @@
         /* align-items: stretch; - default */
         /* flex-direction: column; */
         
-    }
-    .container-2 {
-        display: flex;
+    /* } */
+    /* .container-2 {
+        display: flex; */
         /* justify-content: flex-start; -default setting to justify content*/
         /* justify-content: flex-end; -pushes it over */
         /* justify-content: center; -obvious */
-        justify-content: space-between; 
+        /* justify-content: space-between;  */
          /*   - only space between, not around */ 
         /* justify-content: space-around; - add margins on the side as well as between. */
-    }
-}
+    /* }
+} */
 
-.container-3 {
+/* .container-3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,8 +83,8 @@
 .container-2-box {
     /* width: 27%; */
     /* rather than width, use flex-basis */
-    flex-basis: 27%;
+    /* flex-basis: 27%;
 }
 .container-3-box {
     flex-basis: 30%;
-}
+} */
