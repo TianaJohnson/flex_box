@@ -34,10 +34,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
     display: flex;
     border: 10px solid goldenrod ;
     height: 100vh;
-    flex-direction: row-reverse;
-
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
 }
 
+.box {
+    width:300px;
+}
 
 
 
